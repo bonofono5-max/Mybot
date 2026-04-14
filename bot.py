@@ -1041,17 +1041,4 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
-    main()
-```
-
----
-
-## التغييرات الرئيسية:
-
-1. **تغيير أسماء الـ callback_data** لتجنب التعارض:
-   - `admin_acc_cat_` ← `addacc_`
-   - `edit_price_` ← `editprice_`
-
-2. **ترتيب الـ handlers** - الـ ConversationHandlers أولاً ثم الـ CallbackQueryHandlers
-
-3. **إصلاح جميع الوظائف** لتعمل بشكل صحيح
+    main
